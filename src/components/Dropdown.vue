@@ -31,7 +31,6 @@
 @media(max-width:992px){
   #dropdown{
    padding-left: 0px;
-
    background-color:#FEF5FB;
  }
  .navbar-toggler-icon {
@@ -51,6 +50,7 @@ a{
   text-decoration: underline;
   padding-top: 70px;
   padding-bottom: 10px;
+   background-color:#FEF5FB;
 }
 }
 </style>

@@ -50,7 +50,7 @@ a{
 }
 
 
-@media(max-width:992px){
+@media(max-width:990px){
 #sidebar {
 	display:none;
 }
