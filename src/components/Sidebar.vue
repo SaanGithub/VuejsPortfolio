@@ -4,7 +4,7 @@
 			<div><img class="logo" src="https://image.ibb.co/ccLuXF/logo.png"></div>
 			<ul>
 				<li><a class="link" href="#"><strong>Home</strong></a></li>
-				<li><a class="link" href="#"><strong>Blog</strong></a></li>
+				<li><a class="link" href="#"><strong>Boop</strong></a></li>
 				<li><a class="link" href="#"><strong>Contact</strong></a></li>
 			</ul>
 		</div>
