@@ -7,10 +7,14 @@
     <div class="text-header">
       <h4> Things of interest </h4>
       <p> Conceptualizing ideas, data analyses and visualization, designing in various adobe programs and developing web applications.
-        <br></br>
-        <h4> Projects I am currently envolved in </h4>
-        Master Business Informatics at<a href="https://dcspine.nl"> Utrecht University</a>. Within this programme I am following the applied Data Science profile. Front end engineer at <a href="https://dcspine.nl">DCspine</a>.
       </p>
+      <br></br>
+      <h4> Projects I am envolved in </h4>
+      <p>
+      Master Business Informatics at<a href="https://dcspine.nl"> Utrecht University</a>. Within this programme I am following the applied Data Science profile. I am currently finalizing my thesis</p>
+      <p style="white-space: pre-line;">Front end engineering at <a href="https://dcspine.nl">DCSpine</a>.</p>
+      <p> Webdevelopment at Toekies. I helped setup the webshop and lead the crowdfunding campagne. </p> 
+     
     </div>
   </div>
 </div>

@@ -4,7 +4,7 @@
 			<div><img class="logo" src="https://image.ibb.co/ccLuXF/logo.png"></div>
 			<ul>
 				<li><a class="link" href="#"><strong>Home</strong></a></li>
-				<li><a class="link" href="#"><strong>Boop</strong></a></li>
+				<li><a class="link" href="#"><strong>Blog</strong></a></li>
 				<li><a class="link" href="#"><strong>Contact</strong></a></li>
 			</ul>
 		</div>
@@ -53,13 +53,12 @@ ul, li{
 	text-align: center;
 	padding:0px;
 	font-weight: 100;
-/*	text-decoration: underline;
-*/	font-size: 0.94em;
+	font-size: 0.94em;
 	position: relative;
 	top: 25%;
-/*	-webkit-transform: translateY(-25%);
+	-webkit-transform: translateY(-25%);
 	-ms-transform: translateY(-25%);
-	transform: translateY(-25%);*/
+	transform: translateY(-25%);
 }
 
 .sidebar{
