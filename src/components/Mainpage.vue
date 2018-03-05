@@ -1,7 +1,7 @@
 <template>
-  <div id="mainpage"class="col-lg-9 col-md ">
+  <div  id="mainpage" v-on:mouseover="someMethod" class="col-lg-9 col-md ">
     <div class="header"> 
-      <h1> I'm glad you found me. </h1>
+      <h1> I'm glad you found me :) </h1>
     </div>
     <br></br>
     <div class="text-header">
@@ -11,14 +11,35 @@
       <br></br>
       <h4> Projects I am envolved in </h4>
       <p>
-      Master Business Informatics at<a href="https://dcspine.nl"> Utrecht University</a>. Within this programme I am following the applied Data Science profile. I am currently finalizing my thesis</p>
-      <p style="white-space: pre-line;">Front end engineering at <a href="https://dcspine.nl">DCSpine</a>.</p>
-      <p> Webdevelopment at Toekies. I helped setup the webshop and lead the crowdfunding campagne. </p> 
-     
+      Master Business Informatics at <a href="https://dcspine.nl"> Utrecht University</a>. Within this programme I am following the Applied Data Science profile. I am currently working on my thesis.</p>
+      <p style="white-space: pre-line;">Front end engineering at <a href="https://dcspine.nl">DCSpine</a>. Creating web applications with Vue.js and data visualizations in D3.js</p>
+      <p> Webdevelopment at <a href="https://toekies.nl"> Toekies </a>. I helped setup the webshop and lead the crowdfunding campagne. </p> 
     </div>
   </div>
 </div>
 </template>
+
+<script>
+
+export default{
+methods:{
+  someMethod(event) {
+        // clientX/Y gives the coordinates relative to the viewport in CSS pixels.
+        console.log(event.clientX); // x coordinate
+        console.log(event.clientY); // y coordinate
+
+        // pageX/Y gives the coordinates relative to the <html> element in CSS pixels.
+        console.log(event.pageX); 
+        console.log(event.pagey); 
+
+        // screenX/Y gives the coordinates relative to the screen in device pixels.
+        console.log(event.screenX);
+        console.log(event.screenY);
+    }
+  }
+}
+
+</script>
 
 <style scoped>
 

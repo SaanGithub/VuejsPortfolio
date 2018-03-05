@@ -32,7 +32,7 @@ data(){
 
 html,body{
     height:100%;
-     background-color:#F4F9D3;
+     background-color:#FFFFFF;
 
 }
 

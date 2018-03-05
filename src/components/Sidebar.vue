@@ -30,7 +30,7 @@ a:before {
   content: "";
   position: absolute;
   width: 100%;
-  height: 2px;
+  height: 3px;
   bottom: 0;
   left: 0;
   background-color: #000;
@@ -53,7 +53,7 @@ ul, li{
 	text-align: center;
 	padding:0px;
 	font-weight: 100;
-	font-size: 0.94em;
+		font-size: 0.94em;
 	position: relative;
 	top: 25%;
 	-webkit-transform: translateY(-25%);
@@ -62,7 +62,7 @@ ul, li{
 }
 
 .sidebar{
-	background-color:#FEF5FB;
+	background-color:#FAFAFA;
 	height:100vh;
 	position: fixed;
 }
