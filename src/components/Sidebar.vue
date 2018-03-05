@@ -15,18 +15,51 @@
 
 <style scoped>
 
+
+a {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+}
+
+a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+
 ul, li{
 	list-style: none;
 	text-align: center;
 	padding:0px;
 	font-weight: 100;
-	text-decoration: underline;
-	font-size: 0.94em;
+/*	text-decoration: underline;
+*/	font-size: 0.94em;
 	position: relative;
 	top: 25%;
-	-webkit-transform: translateY(-25%);
+/*	-webkit-transform: translateY(-25%);
 	-ms-transform: translateY(-25%);
-	transform: translateY(-25%);
+	transform: translateY(-25%);*/
 }
 
 .sidebar{
@@ -46,7 +79,7 @@ ul, li{
 }
 a{
 	color:#212529;
-	font-size: 40px;
+	font-size: 30px;
 }
 
 
